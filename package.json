@@ -1,0 +1,20 @@
+{
+  "name": "home-task",
+  "version": "1.0.0",
+  "description": "JavaScript Home Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "author": "Tatsiana Zubel <tatsiana.zubel@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
